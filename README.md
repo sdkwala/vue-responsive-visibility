@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/sdkwala/vue-responsive-visibility/actions/workflows/simple-test.yml/badge.svg)](https://github.com/sdkwala/vue-responsive-visibility/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![npm](https://img.shields.io/npm/v/vue-responsive-visibility.svg)](https://www.npmjs.com/package/vue-responsive-visibility)
+[![npm](https://img.shields.io/npm/v/@sdkwala/vue-responsive-visibility.svg)](https://www.npmjs.com/package/@sdkwala/vue-responsive-visibility)
 
 Tiny Vue 3 plugin to conditionally render content by responsive breakpoints. Provides a `VisibleOn` component and a `v-visible-on` directive powered by CSS media queries with Tailwind-style defaults.
 
@@ -11,7 +11,7 @@ Tiny Vue 3 plugin to conditionally render content by responsive breakpoints. Pro
 - Customizable breakpoints
 - SSR-friendly (no-op on server)
 
-> Maintained by [sdkwala](https://github.com/sdkwala).
+> Maintained by [@sdkwala](https://github.com/sdkwala).
 
 ## 🚀 Live Demo
 
@@ -22,7 +22,7 @@ See the plugin in action with interactive examples and responsive breakpoints.
 ## Installation
 
 ```bash
-npm install vue-responsive-visibility
+npm install @sdkwala/vue-responsive-visibility
 # peer dependency
 npm install vue@^3
 ```
@@ -35,7 +35,7 @@ Register the plugin once, then use the component or directive anywhere.
 // main.ts
 import { createApp } from 'vue';
 import App from './App.vue';
-import ResponsiveVisibility from 'vue-responsive-visibility';
+import ResponsiveVisibility from '@sdkwala/vue-responsive-visibility';
 
 const app = createApp(App);
 app.use(ResponsiveVisibility);
@@ -62,7 +62,7 @@ app.mount('#app');
 </template>
 
 <script setup lang="ts">
-import { VisibleOn } from 'vue-responsive-visibility';
+import { VisibleOn } from '@sdkwala/vue-responsive-visibility';
 </script>
 ```
 
@@ -102,7 +102,7 @@ With custom breakpoints via an object binding:
 You can provide project-wide breakpoints when installing the plugin. These merge with the defaults.
 
 ```ts
-import ResponsiveVisibility from 'vue-responsive-visibility';
+import ResponsiveVisibility from '@sdkwala/vue-responsive-visibility';
 
 app.use(ResponsiveVisibility, {
   breakpoints: {
