@@ -9,7 +9,12 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals", "vue"],
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
   },
-  "include": ["src", "index.ts", "tests"]
+  "include": ["src", "index.ts", "tests", "src/**/*.vue"],
+  "exclude": ["node_modules", "dist", "coverage"]
 }

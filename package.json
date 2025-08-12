@@ -34,7 +34,8 @@
     "jsdom": "^26.1.0",
     "typescript": "^5.0.0",
     "vitest": "^0.34.0",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "@vue/runtime-core": "^3.0.0"
   },
   "repository": {
     "type": "git",
