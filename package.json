@@ -1,0 +1,59 @@
+{
+  "name": "vue-responsive-visibility",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "module": "index.ts",
+  "types": "index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "require": "./index.ts"
+    }
+  },
+  "files": [
+    "src",
+    "index.ts"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui",
+    "test:ci": "vitest run --coverage --reporter=verbose",
+    "type-check": "tsc --noEmit",
+    "lint": "npm run type-check",
+    "build": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitest/coverage-v8": "^0.34.6",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.0.0",
+    "vitest": "^0.34.0",
+    "vue": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdkwala/vue-responsive-visibility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sdkwala/vue-responsive-visibility/issues"
+  },
+  "homepage": "https://github.com/sdkwala/vue-responsive-visibility#readme",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vue3",
+    "plugin",
+    "directive",
+    "responsive",
+    "breakpoints",
+    "visibility",
+    "media-query"
+  ],
+  "author": "SDK Wala"
+}
