@@ -1,6 +1,6 @@
 {
-  "name": "vue-responsive-visibility",
-  "version": "0.1.0",
+  "name": "@sdkwala/vue-responsive-visibility",
+  "version": "1.0.0",
   "type": "module",
   "main": "index.ts",
   "module": "index.ts",
