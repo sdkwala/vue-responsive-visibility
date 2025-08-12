@@ -5,8 +5,13 @@ export default defineConfig({
   plugins: [vue()],
   test: {
     environment: 'jsdom',
-    setupFiles: './tests/setup.ts',
+    setupFiles: ['./tests/setup.ts'],
     globals: true,
     include: ['tests/**/*.test.ts'],
   },
+  resolve: {
+    alias: {
+      '@': '/src'
+    }
+  }
 });
