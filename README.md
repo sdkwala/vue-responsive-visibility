@@ -13,6 +13,12 @@ Tiny Vue 3 plugin to conditionally render content by responsive breakpoints. Pro
 
 > Maintained by [sdkwala](https://github.com/sdkwala).
 
+## 🚀 Live Demo
+
+**[Try it out → https://vue-responsive-visibility.netlify.app](https://vue-responsive-visibility.netlify.app)**
+
+See the plugin in action with interactive examples and responsive breakpoints.
+
 ## Installation
 
 ```bash
